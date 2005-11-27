@@ -52,7 +52,7 @@ require 5.006;
 use strict;
 use warnings;
 
-our $VERSION = '0.01_0001';
+our $VERSION = '0.01';
 
 sub NamesRgbTable() {
   my %map = ();
