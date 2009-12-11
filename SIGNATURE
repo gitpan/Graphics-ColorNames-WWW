@@ -1,0 +1,44 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.55.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 033bf35f963a8ee78ebe2f6e4255db94c959979f Changes
+SHA1 f235ba4160673bcb7c9d58c2f09dbc7fc0efadea LICENSE
+SHA1 a4f4766b6bc992a2e244394731e9b4ad2999b73d MANIFEST
+SHA1 19ae404564941cdbd24a27daf7f452c545d31346 META.yml
+SHA1 5eedef5cdb0cdd60f5ff44ac975819dde3cfcf70 Makefile.PL
+SHA1 dc4e449f72d49005ee1925fbaf6b323da5259260 README
+SHA1 c103c813a9c1b4fb425adb38048ea8e5896410ac lib/Graphics/ColorNames/CSS.pm
+SHA1 624ec7a2cdd0f4a100dd08c8ca4448c745b14252 lib/Graphics/ColorNames/IE.pm
+SHA1 7b046e2d07fbbd0800e1baf4ea8bf3d9031dfd59 lib/Graphics/ColorNames/SVG.pm
+SHA1 aba69a68a1f796014db1a3d7aa54ad4695e7b178 lib/Graphics/ColorNames/WWW.pm
+SHA1 056063d18c3f48338620bbff698f81f91f2ea4d0 t/10pod.t
+SHA1 e2b1f468d6ea1199f0d68655d25532095435aac8 t/11pod_cover.t
+SHA1 74f2bc2b75e5619a13f3078abde72b247f959017 t/CSS.t
+SHA1 b8f11f28d1b277235b9b126354d7f174fec3a225 t/IExplore.t
+SHA1 2c172ab132e7c90671bda28211fe7cfb31b085e4 t/SVG.t
+SHA1 ccc5f1e1414e767471b4c577509042712317fe29 t/WWW.t
+SHA1 e3a60563d58af0c9cd9c82af42b5e055e3ddd11c t/WWW_CSS.t
+SHA1 92dcb6c4b4b7ffa1fe75f6cebb3b7eba8db266ed t/WWW_HTML.t
+SHA1 a2ad4df0d0410452bfccbfd192a587ae86ec33f1 t/WWW_IExplore.t
+SHA1 a63acd583962b27003b5cff5e886c8b0eff130ff t/WWW_Mozilla.t
+SHA1 a3141e89c67d0a60d4ba3bbb70b12ad0d67411e6 t/WWW_SVG.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (Darwin)
+
+iEYEARECAAYFAksiWeoACgkQSKUOY2OWgPDqGACgnLWBMwuBwiPS+gc4A3NTIpfO
+DvEAnAzI6JPexErJo/aEP5U5tRLZn3tF
+=BX1n
+-----END PGP SIGNATURE-----
