@@ -2,6 +2,7 @@ README
 Changes
 LICENSE
 MANIFEST
+Build.PL
 Makefile.PL
 lib/Graphics/ColorNames/CSS.pm
 lib/Graphics/ColorNames/IE.pm
@@ -18,5 +19,5 @@ t/WWW_HTML.t
 t/WWW_IExplore.t
 t/WWW_Mozilla.t
 t/WWW_SVG.t
-META.yml                                 Module meta-data (added by MakeMaker)
-SIGNATURE                                Public-key signature (added by MakeMaker)
+META.yml
+SIGNATURE    Added here by Module::Build

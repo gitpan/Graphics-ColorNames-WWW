@@ -1,26 +1,35 @@
---- #YAML:1.0
-name:               Graphics-ColorNames-WWW
-version:            1.10
-abstract:           WWW color names and equivalent RGB values
+---
+name: Graphics-ColorNames-WWW
+version: 1.11
 author:
-    - Claus Faerber <CFAERBER@cpan.org>
-license:            perl
-distribution_type:  module
-configure_requires:
-    ExtUtils::MakeMaker:  0
-build_requires:
-    Test::More:        0
-    Test::NoWarnings:  0
-requires:
-    Graphics::ColorNames:  0.32
+  - 'Claus Färber <CFAERBER@cpan.org>'
+abstract: WWW color names and equivalent RGB values
+license: perl
 resources:
-    homepage:    http://search.cpan.org/dist/Graphics-ColorNames-WWW
-    repository:  http://github.com/cfaerber/Graphics-ColorNames-WWW
-no_index:
-    directory:
-        - t
-        - inc
-generated_by:       ExtUtils::MakeMaker version 6.48
+  license: http://dev.perl.org/licenses/
+build_requires:
+  Test::More: 0
+  Test::NoWarnings: 0
+requires:
+  Graphics::ColorNames: 0.32
+  Graphics::ColorNames::WWW: 0.01
+  Params::Validate: 0.75
+configure_requires:
+  Module::Build: 0.35
+provides:
+  Graphics::ColorNames::CSS:
+    file: lib/Graphics/ColorNames/CSS.pm
+    version: 1.10
+  Graphics::ColorNames::IE:
+    file: lib/Graphics/ColorNames/IE.pm
+    version: 1.10
+  Graphics::ColorNames::SVG:
+    file: lib/Graphics/ColorNames/SVG.pm
+    version: 1.10
+  Graphics::ColorNames::WWW:
+    file: lib/Graphics/ColorNames/WWW.pm
+    version: 1.11
+generated_by: Module::Build version 0.35
 meta-spec:
-    url:      http://module-build.sourceforge.net/META-spec-v1.4.html
-    version:  1.4
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
