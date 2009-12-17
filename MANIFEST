@@ -1,6 +1,5 @@
 README
 Changes
-LICENSE
 MANIFEST
 Build.PL
 Makefile.PL
@@ -19,5 +18,6 @@ t/WWW_HTML.t
 t/WWW_IExplore.t
 t/WWW_Mozilla.t
 t/WWW_SVG.t
+LICENSE
 META.yml
 SIGNATURE    Added here by Module::Build

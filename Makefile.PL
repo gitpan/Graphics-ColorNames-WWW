@@ -9,8 +9,6 @@ WriteMakefile
           'VERSION_FROM' => 'lib/Graphics/ColorNames/WWW.pm',
           'PREREQ_PM' => {
                            'Test::More' => 0,
-                           'Params::Validate' => '0.75',
-                           'Graphics::ColorNames::WWW' => '0.01',
                            'Test::NoWarnings' => 0,
                            'Graphics::ColorNames' => '0.32'
                          }
